@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+    <title> Datos Lenguas Nativas de Colombia </title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body>
+   
+    <section class="hero is-primary">
+        <div class="hero-body">
+          <p class="title">
+            Lenguas Nativas de Colombia
+          </p>
+          <p class="subtitle">
+            Datos Abiertos
+          </p>
+        </div>
+      </section>
+
+
+      <section>
+        <div class="dataL" id="dataL">
+            <svg></svg>
+        </div>
+    </section>
+
+    
+
+      <div class="card">
+        <div class="card-content">
+          <div class="content" >
+            <b>What:</b> Obtenemos una tabla con datos categoricos como por ejemplo: nombre de lengua, departamento, familia linguistica
+            y el estado de vulnerabilidad de la lengua. Tambien se obtenien datos numericos acerca de la cantidad de habitantes por departamento 
+            y el numero de hablantes de la lengua. Finalmente una columna con la descripción de la lengua.
+            <br>
+            Datos: Atributos categoricos y escalares.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <b>How:</b> Un arbol donde sus nodos son textos, conectado mediante lineas hasta llegar a sus hojas en las cuales hay circulos y terminan en numeros.
+            <br>
+            Codificar: Arbol  conectado por lineas y circulos.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <b>Why:</b> Mediante el arbol se exponen las diferentes lenguas de cada departamento, hasta llegar a las hojas
+            que muestran la cantidad de personas hablantes de la lengua.
+          </div>
+        </div>
+      </div>
+
+      
+
+
+
+
+
+   <footer class="footer">
+    <div class="content has-text-centered">
+        Los datos aqui puestos se encuentran en el portal de datos abiertos de la pagina de gov.co del gobierno colombiano.
+      <p>
+        Power by <a href="https://uniandes.edu.co/"><strong>Uniandes</strong></a>. La licencia de los datos es
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
+
+    <script src="index.js">  </script>
+
+</body>
+</html>
